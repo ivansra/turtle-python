@@ -1,25 +1,36 @@
 # Python program to draw square
 # using Turtle programming
 
-### sin loop
+### sin lo
+#fom turtle import *
 
-from turtle import *
+#color('orange', 'yellow',)
+#begin_fill()r
+#while True:
+    #i in range (18):
+    #forward(300)
+    #right(100)
 
-# shape("turtle")
-# for i in range (4):
-#     forward(500)
-#     right(90)
-
-# done()
+#done()
 
 
 # dibuja una estrella
 
-color('red', 'yellow')
+#color('red', 'yellow')
+#begin_fill()
+#while True:
+#    forward(100)
+#    left(300)
+#    if abs(pos()) < 1:
+#        break
+#end_fill()
+#done
+from turtle import *
+color('orange', 'yellow')
 begin_fill()
 while True:
     forward(200)
-    left(170)
+    left(100)
     if abs(pos()) < 1:
         break
 end_fill()
